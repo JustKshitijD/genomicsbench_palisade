@@ -1,5 +1,7 @@
-Given GenomicsBench repo code, we converted the benchmarks to Homomorphic Encryption (HE) domain using Palisade library, for which there is good community support. We modifiesD the Makefiles of the benchmarks such that programs are linked and compied using Palisade and the HE functions run appropriately. 
-RUn "make" from root of Genomicsbench or go into individual benchmarks and run "make" there to create executables. Can run the executables from "scripts" folder, as specified in "run-cpu.sh".
+Given GenomicsBench repo code, we converted the benchmarks to Homomorphic Encryption (HE) domain using Palisade library, for which there is good community support. We modified the Makefiles of the benchmarks such that programs are linked and compied using Palisade and the HE functions run appropriately. 
+Run "make" from root of Genomicsbench or go into individual benchmarks and run "make" there to create executables. Can run the executables from "scripts" folder, as specified in "run-cpu.sh".
+
+FInd our source code of the converted kernels in benchmarks, for ex- For chain kernel, main file is "benchmarks/chain/src/host_kernel.cpp".
 Below is README file of GenomicsBench repo - 
 
 <p align="center"><img src="https://github.com/arun-sub/punnet/blob/master/img/GenomicsBenchLogo-Colored.png" width="750"></p>
