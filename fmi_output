@@ -1,0 +1,50 @@
+Command- ../benchmarks/fmi/fmi ../../input-datasets/fmi/broad ../../input-datasets/fmi/small/SRR7733443_1m_1.fastq 512 19 1
+Output- 
+before reading sequences
+* Entering FMI_search
+* Index file found. Loading index from ../../input-datasets/fmi/broad.bwt.2bit.64
+* Reference seq len for bi-index = 6434693835
+* sentinel-index: 2736215060
+* Count:
+0,	1
+1,	1882204624
+2,	3217346918
+3,	4552489212
+4,	6434693835
+
+* Reading other elements of the index from files ../../input-datasets/fmi/broad
+* Index prefix: ../../input-datasets/fmi/broad
+* Read 3171 ALT contigs
+* Done reading Index!!
+numReads = 1000000, max_readlength = 151, min_readlength = 151
+Running 1 threads
+0] 232756318356 ticks, workTicks = 232748269628
+avgTicks = 232748269628.000000, maxTicks = 232748269628, load imbalance = 1.000000
+Consumed: 232756577260 cycles, 61.1926 sec
+totalSmems = 12260334
+
+before reading sequences
+* Entering FMI_search
+* Index file found. Loading index from ../../input-datasets/fmi/broad.bwt.2bit.64
+* Reference seq len for bi-index = 6434693835
+* sentinel-index: 2736215060
+* Count:
+0,	1
+1,	1882204624
+2,	3217346918
+3,	4552489212
+4,	6434693835
+
+* Reading other elements of the index from files ../../input-datasets/fmi/broad
+* Index prefix: ../../input-datasets/fmi/broad
+* Read 3171 ALT contigs
+* Done reading Index!!
+numReads = 1000000, max_readlength = 151, min_readlength = 151
+Running 1 threads
+0] 218941556458 ticks, workTicks = 218932464514
+avgTicks = 218932464514.000000, maxTicks = 218932464514, load imbalance = 1.000000
+Consumed: 218942037790 cycles, 57.7119 sec
+totalSmems = 12260334
+
+
+

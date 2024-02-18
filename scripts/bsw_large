@@ -1,0 +1,10 @@
+The cryptocontext has been deserialized.
+The public key has been deserialized.
+Deserialized the eval mult keys.
+The secret key has been deserialized.
+numLines: 31819380
+Number of input pairs: 10606460
+roundNumPairs: 10606464
+Allocating 23.470 GB memory for input buffers...
+seqBufQer_enc.size(): 165726
+seqBufRef_enc.size(): 1325808

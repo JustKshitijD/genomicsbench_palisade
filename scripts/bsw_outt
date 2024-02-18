@@ -1,0 +1,418 @@
+n: 1048576
+p: 12869861377
+n: 16384
+The cryptocontext has been deserialized.
+The public key has been deserialized.
+Deserialized the eval mult keys.
+The secret key has been deserialized.
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 1048576
+n: 668534
+Time taken by phase1 is 43614264 microseconds
+numLines: 300000
+Number of input pairs: 100000
+roundNumPairs: 100000
+Allocating 0.221 GB memory for input buffers...
+seqBufQer_enc.size(): 1563
+seqBufRef_enc.size(): 12500
+i: 0; numPairsIndex: 0
+Time taken by i: 0 is 22854054 microseconds
+i: 512; numPairsIndex: 512
+Time taken by i: 512 is 22760007 microseconds
+i: 1024; numPairsIndex: 1024
+Time taken by i: 1024 is 22917161 microseconds
+i: 1536; numPairsIndex: 1536
+Time taken by i: 1536 is 22779780 microseconds
+i: 2048; numPairsIndex: 2048
+Time taken by i: 2048 is 37015221 microseconds
+i: 2560; numPairsIndex: 2560
+Time taken by i: 2560 is 46671014 microseconds
+i: 3072; numPairsIndex: 3072
+Time taken by i: 3072 is 27230275 microseconds
+i: 3584; numPairsIndex: 3584
+Time taken by i: 3584 is 29435337 microseconds
+i: 4096; numPairsIndex: 4096
+Time taken by i: 4096 is 28300985 microseconds
+i: 4608; numPairsIndex: 4608
+Time taken by i: 4608 is 24607226 microseconds
+i: 5120; numPairsIndex: 5120
+Time taken by i: 5120 is 23717589 microseconds
+i: 5632; numPairsIndex: 5632
+Time taken by i: 5632 is 27482554 microseconds
+i: 6144; numPairsIndex: 6144
+Time taken by i: 6144 is 24400893 microseconds
+i: 6656; numPairsIndex: 6656
+Time taken by i: 6656 is 24267623 microseconds
+i: 7168; numPairsIndex: 7168
+Time taken by i: 7168 is 25056948 microseconds
+i: 7680; numPairsIndex: 7680
+Time taken by i: 7680 is 31660893 microseconds
+i: 8192; numPairsIndex: 8192
+Time taken by i: 8192 is 28607818 microseconds
+i: 8704; numPairsIndex: 8704
+Time taken by i: 8704 is 23344011 microseconds
+i: 9216; numPairsIndex: 9216
+Time taken by i: 9216 is 23166701 microseconds
+i: 9728; numPairsIndex: 9728
+Time taken by i: 9728 is 27075292 microseconds
+i: 10240; numPairsIndex: 10240
+Time taken by i: 10240 is 27692285 microseconds
+i: 10752; numPairsIndex: 10752
+Time taken by i: 10752 is 23829390 microseconds
+i: 11264; numPairsIndex: 11264
+Time taken by i: 11264 is 23952912 microseconds
+i: 11776; numPairsIndex: 11776
+Time taken by i: 11776 is 24301222 microseconds
+i: 12288; numPairsIndex: 12288
+Time taken by i: 12288 is 24009760 microseconds
+i: 12800; numPairsIndex: 12800
+Time taken by i: 12800 is 26863410 microseconds
+i: 13312; numPairsIndex: 13312
+Time taken by i: 13312 is 25292549 microseconds
+i: 13824; numPairsIndex: 13824
+Time taken by i: 13824 is 24454110 microseconds
+i: 14336; numPairsIndex: 14336
+Time taken by i: 14336 is 25291697 microseconds
+i: 14848; numPairsIndex: 14848
+Time taken by i: 14848 is 23898249 microseconds
+i: 15360; numPairsIndex: 15360
+Time taken by i: 15360 is 24542716 microseconds
+i: 15872; numPairsIndex: 15872
+Time taken by i: 15872 is 26491478 microseconds
+i: 16384; numPairsIndex: 16384
+Time taken by i: 16384 is 23794730 microseconds
+i: 16896; numPairsIndex: 16896
+Time taken by i: 16896 is 23087450 microseconds
+i: 17408; numPairsIndex: 17408
+Time taken by i: 17408 is 23054321 microseconds
+i: 17920; numPairsIndex: 17920
+Time taken by i: 17920 is 23173740 microseconds
+i: 18432; numPairsIndex: 18432
+Time taken by i: 18432 is 23150091 microseconds
+i: 18944; numPairsIndex: 18944
+Time taken by i: 18944 is 23309905 microseconds
+i: 19456; numPairsIndex: 19456
+Time taken by i: 19456 is 23183504 microseconds
+i: 19968; numPairsIndex: 19968
+Time taken by i: 19968 is 23383791 microseconds
+i: 20480; numPairsIndex: 20480
+Time taken by i: 20480 is 23163584 microseconds
+i: 20992; numPairsIndex: 20992
+Time taken by i: 20992 is 23348680 microseconds
+i: 21504; numPairsIndex: 21504
+Time taken by i: 21504 is 23197897 microseconds
+i: 22016; numPairsIndex: 22016
+Time taken by i: 22016 is 23215271 microseconds
+i: 22528; numPairsIndex: 22528
+Time taken by i: 22528 is 23111581 microseconds
+i: 23040; numPairsIndex: 23040
+Time taken by i: 23040 is 28986020 microseconds
+i: 23552; numPairsIndex: 23552
+Time taken by i: 23552 is 23036367 microseconds
+i: 24064; numPairsIndex: 24064
+Time taken by i: 24064 is 23265066 microseconds
+i: 24576; numPairsIndex: 24576
+Time taken by i: 24576 is 23110784 microseconds
+i: 25088; numPairsIndex: 25088
+Time taken by i: 25088 is 22840885 microseconds
+i: 25600; numPairsIndex: 25600
+Time taken by i: 25600 is 23113279 microseconds
+i: 26112; numPairsIndex: 26112
+Time taken by i: 26112 is 23134229 microseconds
+i: 26624; numPairsIndex: 26624
+Time taken by i: 26624 is 23135102 microseconds
+i: 27136; numPairsIndex: 27136
+Time taken by i: 27136 is 23144725 microseconds
+i: 27648; numPairsIndex: 27648
+Time taken by i: 27648 is 23027576 microseconds
+i: 28160; numPairsIndex: 28160
+Time taken by i: 28160 is 23173874 microseconds
+i: 28672; numPairsIndex: 28672
+Time taken by i: 28672 is 23007474 microseconds
+i: 29184; numPairsIndex: 29184
+Time taken by i: 29184 is 23083993 microseconds
+i: 29696; numPairsIndex: 29696
+Time taken by i: 29696 is 23199793 microseconds
+i: 30208; numPairsIndex: 30208
+Time taken by i: 30208 is 23166237 microseconds
+i: 30720; numPairsIndex: 30720
+Time taken by i: 30720 is 28144045 microseconds
+i: 31232; numPairsIndex: 31232
+Time taken by i: 31232 is 29309604 microseconds
+i: 31744; numPairsIndex: 31744
+Time taken by i: 31744 is 28611405 microseconds
+i: 32256; numPairsIndex: 32256
+Time taken by i: 32256 is 28624028 microseconds
+i: 32768; numPairsIndex: 32768
+Time taken by i: 32768 is 21717510 microseconds
+i: 33280; numPairsIndex: 33280
+Time taken by i: 33280 is 21678725 microseconds
+i: 33792; numPairsIndex: 33792
+Time taken by i: 33792 is 21746495 microseconds
+i: 34304; numPairsIndex: 34304
+Time taken by i: 34304 is 21902547 microseconds
+i: 34816; numPairsIndex: 34816
+Time taken by i: 34816 is 21899928 microseconds
+i: 35328; numPairsIndex: 35328
+Time taken by i: 35328 is 21774827 microseconds
+i: 35840; numPairsIndex: 35840
+Time taken by i: 35840 is 21748723 microseconds
+i: 36352; numPairsIndex: 36352
+Time taken by i: 36352 is 21753229 microseconds
+i: 36864; numPairsIndex: 36864
+Time taken by i: 36864 is 21724433 microseconds
+i: 37376; numPairsIndex: 37376
+Time taken by i: 37376 is 31550922 microseconds
+i: 37888; numPairsIndex: 37888
+Time taken by i: 37888 is 30255203 microseconds
+i: 38400; numPairsIndex: 38400
+Time taken by i: 38400 is 27687890 microseconds
+i: 38912; numPairsIndex: 38912
+Time taken by i: 38912 is 25992029 microseconds
+i: 39424; numPairsIndex: 39424
+Time taken by i: 39424 is 23885676 microseconds
+i: 39936; numPairsIndex: 39936
+Time taken by i: 39936 is 23931644 microseconds
+i: 40448; numPairsIndex: 40448
+Time taken by i: 40448 is 23987961 microseconds
+i: 40960; numPairsIndex: 40960
+Time taken by i: 40960 is 28052614 microseconds
+i: 41472; numPairsIndex: 41472
+Time taken by i: 41472 is 25606521 microseconds
+i: 41984; numPairsIndex: 41984
+Time taken by i: 41984 is 31244892 microseconds
+i: 42496; numPairsIndex: 42496
+Time taken by i: 42496 is 29672745 microseconds
+i: 43008; numPairsIndex: 43008
+Time taken by i: 43008 is 23871722 microseconds
+i: 43520; numPairsIndex: 43520
+Time taken by i: 43520 is 23813004 microseconds
+i: 44032; numPairsIndex: 44032
+Time taken by i: 44032 is 23986440 microseconds
+i: 44544; numPairsIndex: 44544
+Time taken by i: 44544 is 30511796 microseconds
+i: 45056; numPairsIndex: 45056
+Time taken by i: 45056 is 27182463 microseconds
+i: 45568; numPairsIndex: 45568
+Time taken by i: 45568 is 24914582 microseconds
+i: 46080; numPairsIndex: 46080
+Time taken by i: 46080 is 24794331 microseconds
+i: 46592; numPairsIndex: 46592
+Time taken by i: 46592 is 25346268 microseconds
+i: 47104; numPairsIndex: 47104
+Time taken by i: 47104 is 24963639 microseconds
+i: 47616; numPairsIndex: 47616
+Time taken by i: 47616 is 24617044 microseconds
+i: 48128; numPairsIndex: 48128
+Time taken by i: 48128 is 24254620 microseconds
+i: 48640; numPairsIndex: 48640
+Time taken by i: 48640 is 24345476 microseconds
+i: 49152; numPairsIndex: 49152
+Time taken by i: 49152 is 24522920 microseconds
+i: 49664; numPairsIndex: 49664
+Time taken by i: 49664 is 26634005 microseconds
+i: 50176; numPairsIndex: 50176
+Time taken by i: 50176 is 28632208 microseconds
+i: 50688; numPairsIndex: 50688
+Time taken by i: 50688 is 28893386 microseconds
+i: 51200; numPairsIndex: 51200
+Time taken by i: 51200 is 40773604 microseconds
+i: 51712; numPairsIndex: 51712
+Time taken by i: 51712 is 24167928 microseconds
+i: 52224; numPairsIndex: 52224
+Time taken by i: 52224 is 26091446 microseconds
+i: 52736; numPairsIndex: 52736
+Time taken by i: 52736 is 34835308 microseconds
+i: 53248; numPairsIndex: 53248
+Time taken by i: 53248 is 24045238 microseconds
+i: 53760; numPairsIndex: 53760
+Time taken by i: 53760 is 32697383 microseconds
+i: 54272; numPairsIndex: 54272
+Time taken by i: 54272 is 27461832 microseconds
+i: 54784; numPairsIndex: 54784
+Time taken by i: 54784 is 26641705 microseconds
+i: 55296; numPairsIndex: 55296
+Time taken by i: 55296 is 28311150 microseconds
+i: 55808; numPairsIndex: 55808
+Time taken by i: 55808 is 44970832 microseconds
+i: 56320; numPairsIndex: 56320
+Time taken by i: 56320 is 25033580 microseconds
+i: 56832; numPairsIndex: 56832
+Time taken by i: 56832 is 33804776 microseconds
+i: 57344; numPairsIndex: 57344
+Time taken by i: 57344 is 28624443 microseconds
+i: 57856; numPairsIndex: 57856
+Time taken by i: 57856 is 27139807 microseconds
+i: 58368; numPairsIndex: 58368
+Time taken by i: 58368 is 27200079 microseconds
+i: 58880; numPairsIndex: 58880
+Time taken by i: 58880 is 24812288 microseconds
+i: 59392; numPairsIndex: 59392
+Time taken by i: 59392 is 24055351 microseconds
+i: 59904; numPairsIndex: 59904
+Time taken by i: 59904 is 24100632 microseconds
+i: 60416; numPairsIndex: 60416
+Time taken by i: 60416 is 27692930 microseconds
+i: 60928; numPairsIndex: 60928
+Time taken by i: 60928 is 28002018 microseconds
+i: 61440; numPairsIndex: 61440
+Time taken by i: 61440 is 24328361 microseconds
+i: 61952; numPairsIndex: 61952
+Time taken by i: 61952 is 24137680 microseconds
+i: 62464; numPairsIndex: 62464
+Time taken by i: 62464 is 27435399 microseconds
+i: 62976; numPairsIndex: 62976
+Time taken by i: 62976 is 24822268 microseconds
+i: 63488; numPairsIndex: 63488
+Time taken by i: 63488 is 25538171 microseconds
+i: 64000; numPairsIndex: 64000
+Time taken by i: 64000 is 23649410 microseconds
+i: 64512; numPairsIndex: 64512
+Time taken by i: 64512 is 33454876 microseconds
+i: 65024; numPairsIndex: 65024
+Time taken by i: 65024 is 26890131 microseconds
+i: 65536; numPairsIndex: 65536
+Time taken by i: 65536 is 27299358 microseconds
+i: 66048; numPairsIndex: 66048
+Time taken by i: 66048 is 30256120 microseconds
+i: 66560; numPairsIndex: 66560
+Time taken by i: 66560 is 24932649 microseconds
+i: 67072; numPairsIndex: 67072
+Time taken by i: 67072 is 24540732 microseconds
+i: 67584; numPairsIndex: 67584
+Time taken by i: 67584 is 29288275 microseconds
+i: 68096; numPairsIndex: 68096
+Time taken by i: 68096 is 26595399 microseconds
+i: 68608; numPairsIndex: 68608
+Time taken by i: 68608 is 24512179 microseconds
+i: 69120; numPairsIndex: 69120
+Time taken by i: 69120 is 27202632 microseconds
+i: 69632; numPairsIndex: 69632
+Time taken by i: 69632 is 24173285 microseconds
+i: 70144; numPairsIndex: 70144
+Time taken by i: 70144 is 24657975 microseconds
+i: 70656; numPairsIndex: 70656
+Time taken by i: 70656 is 24538703 microseconds
+i: 71168; numPairsIndex: 71168
+Time taken by i: 71168 is 25648548 microseconds
+i: 71680; numPairsIndex: 71680
+Time taken by i: 71680 is 26944124 microseconds
+i: 72192; numPairsIndex: 72192
+Time taken by i: 72192 is 27075246 microseconds
+i: 72704; numPairsIndex: 72704
+Time taken by i: 72704 is 32759927 microseconds
+i: 73216; numPairsIndex: 73216
+Time taken by i: 73216 is 24233835 microseconds
+i: 73728; numPairsIndex: 73728
+Time taken by i: 73728 is 27378432 microseconds
+i: 74240; numPairsIndex: 74240
+Time taken by i: 74240 is 29071887 microseconds
+i: 74752; numPairsIndex: 74752
+Time taken by i: 74752 is 25433861 microseconds
+i: 75264; numPairsIndex: 75264
+Time taken by i: 75264 is 31335548 microseconds
+i: 75776; numPairsIndex: 75776
+Time taken by i: 75776 is 22319385 microseconds
+i: 76288; numPairsIndex: 76288
+Time taken by i: 76288 is 22226932 microseconds
+i: 76800; numPairsIndex: 76800
+Time taken by i: 76800 is 22222470 microseconds
+i: 77312; numPairsIndex: 77312
+Time taken by i: 77312 is 22348373 microseconds
+i: 77824; numPairsIndex: 77824
+Time taken by i: 77824 is 22474769 microseconds
+i: 78336; numPairsIndex: 78336
+Time taken by i: 78336 is 29038229 microseconds
+i: 78848; numPairsIndex: 78848
+Time taken by i: 78848 is 24902282 microseconds
+i: 79360; numPairsIndex: 79360
+Time taken by i: 79360 is 23966352 microseconds
+i: 79872; numPairsIndex: 79872
+Time taken by i: 79872 is 24500082 microseconds
+i: 80384; numPairsIndex: 80384
+Time taken by i: 80384 is 25717268 microseconds
+i: 80896; numPairsIndex: 80896
+Time taken by i: 80896 is 24933020 microseconds
+i: 81408; numPairsIndex: 81408
+Time taken by i: 81408 is 24101056 microseconds
+i: 81920; numPairsIndex: 81920
+Time taken by i: 81920 is 29293276 microseconds
+i: 82432; numPairsIndex: 82432
+Time taken by i: 82432 is 25045489 microseconds
+i: 82944; numPairsIndex: 82944
+Time taken by i: 82944 is 23595230 microseconds
+i: 83456; numPairsIndex: 83456
+Time taken by i: 83456 is 23917766 microseconds
+i: 83968; numPairsIndex: 83968
+Time taken by i: 83968 is 30075399 microseconds
+i: 84480; numPairsIndex: 84480
+Time taken by i: 84480 is 24049628 microseconds
+i: 84992; numPairsIndex: 84992
+Time taken by i: 84992 is 24056979 microseconds
+i: 85504; numPairsIndex: 85504
+Time taken by i: 85504 is 27654237 microseconds
+i: 86016; numPairsIndex: 86016
+Time taken by i: 86016 is 37598301 microseconds
+i: 86528; numPairsIndex: 86528
+Time taken by i: 86528 is 26976634 microseconds
+i: 87040; numPairsIndex: 87040
+Time taken by i: 87040 is 24443354 microseconds
+i: 87552; numPairsIndex: 87552
+Time taken by i: 87552 is 24432794 microseconds
+i: 88064; numPairsIndex: 88064
+Time taken by i: 88064 is 25895076 microseconds
+i: 88576; numPairsIndex: 88576
+Time taken by i: 88576 is 26898084 microseconds
+i: 89088; numPairsIndex: 89088
+Time taken by i: 89088 is 25263680 microseconds
+i: 89600; numPairsIndex: 89600
+Time taken by i: 89600 is 25263317 microseconds
+i: 90112; numPairsIndex: 90112
+Time taken by i: 90112 is 28133814 microseconds
+i: 90624; numPairsIndex: 90624
+Time taken by i: 90624 is 30373911 microseconds
+i: 91136; numPairsIndex: 91136
+Time taken by i: 91136 is 31038036 microseconds
+i: 91648; numPairsIndex: 91648
+Time taken by i: 91648 is 26316190 microseconds
+i: 92160; numPairsIndex: 92160
+Time taken by i: 92160 is 42636449 microseconds
+i: 92672; numPairsIndex: 92672
+Time taken by i: 92672 is 33141697 microseconds
+i: 93184; numPairsIndex: 93184
+Time taken by i: 93184 is 25298433 microseconds
+i: 93696; numPairsIndex: 93696
+Time taken by i: 93696 is 32002414 microseconds
+i: 94208; numPairsIndex: 94208
+Time taken by i: 94208 is 37879024 microseconds
+i: 94720; numPairsIndex: 94720
+Time taken by i: 94720 is 64180323 microseconds
+i: 95232; numPairsIndex: 95232
+Time taken by i: 95232 is 60446721 microseconds
+i: 95744; numPairsIndex: 95744
+Time taken by i: 95744 is 53621438 microseconds
+i: 96256; numPairsIndex: 96256
+Time taken by i: 96256 is 50872623 microseconds
+i: 96768; numPairsIndex: 96768
+Time taken by i: 96768 is 50036117 microseconds
+i: 97280; numPairsIndex: 97280

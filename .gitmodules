@@ -1,0 +1,47 @@
+[submodule "tools/bwa"]
+	path = tools/bwa
+	url = https://github.com/arun-sub/bwa.git
+	branch = master
+[submodule "tools/GKL"]
+	path = tools/GKL
+	url = https://github.com/arun-sub/GKL.git
+	branch = pv_c_interface
+[submodule "tools/bwa-mem2"]
+	path = tools/bwa-mem2
+	url = https://github.com/bwa-mem2/bwa-mem2.git
+[submodule "tools/minimap2"]
+	path = tools/minimap2
+	url = https://github.com/arun-sub/minimap2.git
+[submodule "tools/minimap2-acceleration"]
+	path = tools/minimap2-acceleration
+	url = https://github.com/arun-sub/minimap2-acceleration.git
+[submodule "tools/spoa"]
+	path = tools/spoa
+	url = https://github.com/arun-sub/spoa.git
+[submodule "tools/abPOA"]
+	path = tools/abPOA
+	url = https://github.com/arun-sub/abPOA.git
+[submodule "tools/racon"]
+	path = tools/racon
+	url = https://github.com/arun-sub/racon.git
+[submodule "tools/Clair"]
+	path = tools/Clair
+	url = https://github.com/Yufeng98/Clair.git
+[submodule "tools/medaka"]
+	path = tools/medaka
+	url = https://github.com/arun-sub/medaka.git
+[submodule "tools/Platypus"]
+	path = tools/Platypus
+	url = https://github.com/arun-sub/Platypus.git
+[submodule "tools/htslib"]
+	path = tools/htslib
+	url = https://github.com/arun-sub/htslib.git
+[submodule "tools/bonito"]
+	path = tools/bonito
+	url = https://github.com/TimD1/bonito.git
+[submodule "tools/Flye"]
+	path = tools/Flye
+	url = https://github.com/arun-sub/Flye.git
+[submodule "benchmarks/grm"]
+	path = benchmarks/grm
+	url = https://github.com/arun-sub/plink-ng.git

@@ -1,0 +1,10 @@
+*.pyc
+*.vscode
+*.h5
+*.txt
+*.tar
+*csv*
+*.xlsx
+model.*
+testingData*
+training/

@@ -1,0 +1,10 @@
+venv3
+long-reads/basecalling/output
+*.nfs*
+*.out
+*.txt
+*.o
+*.log
+*.out
+*.csv
+*.conf

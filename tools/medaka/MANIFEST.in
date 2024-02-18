@@ -1,0 +1,11 @@
+include src/*.c
+include src/*.h
+include README.md
+include LICENSE.md
+include requirements.txt
+include build.py
+include Makefile
+graft submodules/samtools-1.9/htslib-1.9
+graft images
+prune build
+prune docs

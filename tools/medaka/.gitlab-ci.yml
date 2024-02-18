@@ -1,0 +1,114 @@
+image: $IMAGE
+
+stages:
+    - test
+    - build
+    - deploy
+
+test:
+    stage: test
+    before_script:
+        - apt-get update -qq && apt-get install -y -qq
+          gcc make cmake curl wget
+          python3-all-dev python-virtualenv
+          zlib1g-dev libbz2-dev liblzma-dev libncurses5-dev libcurl4-gnutls-dev
+          libssl-dev libffi-dev valgrind
+    script:
+        - make venv
+        - CITEST=1 make -j 1 test mem_check
+        - make docs
+
+
+.arm-many-linux: &arm-many-linux-def
+    image: quay.io/pypa/manylinux2014_aarch64
+    stage: build
+    tags:
+        - arm64
+    variables:
+        DO_COUNT_TEST: 0
+    before_script:
+        # ARM CI image doesn't have git lfs, so need to jump some hoops
+        - yum install -y wget
+        - mkdir git-lfs && cd git-lfs
+          && wget https://github.com/git-lfs/git-lfs/releases/download/v2.12.0/git-lfs-linux-arm64-v2.12.0.tar.gz
+          && tar -xzvf git-lfs-linux-arm64-v2.12.0.tar.gz
+          && chmod +x install.sh && ./install.sh
+          && cd ..
+        - GIT_SSL_NO_VERIFY=1 git lfs pull
+        - file medaka/data/*.hdf5
+        # strip some less useful dependencies
+        - sed -i "s/numpy==1.16.1/numpy==1.19.2/" requirements.txt
+        - sed -i "/parasail/d" requirements.txt
+        - sed -i "/pyspoa/d" requirements.txt
+        - sed -i "/whatshap/d" requirements.txt
+        # replace architecture of python extension (what about libhts.a?)
+        - sed -i "s/-msse3/-march=armv8-a+simd/" build.py
+    artifacts:
+        paths:
+          - wheelhouse/*.whl
+    only:
+        - tags
+
+build:arm-many-linux-5:
+    <<: *arm-many-linux-def
+    script:
+        - ./build-wheels.sh . 5
+
+build:arm-many-linux-6:
+    <<: *arm-many-linux-def
+    script:
+        - ./build-wheels.sh . 6
+
+.many-linux: &many-linux-def
+  image: quay.io/pypa/manylinux2010_x86_64
+  stage: build
+  variables:
+      DO_COUNT_TEST: 1
+  artifacts:
+      paths:
+          - wheelhouse/*.whl
+  only:
+      - tags
+
+build:many-linux-5:
+    <<: *many-linux-def
+    script:
+        - ./build-wheels.sh . 5
+
+build:many-linux-6:
+    <<: *many-linux-def
+    script:
+        - ./build-wheels.sh . 6
+
+build:many-linux-7:
+    <<: *many-linux-def
+    script:
+        - ./build-wheels.sh . 7
+
+build:many-linux-8:
+    <<: *many-linux-def
+    script:
+        - ./build-wheels.sh . 8
+
+build:sdist:
+    stage: build
+    before_script:
+        - apt-get update -qq && apt-get install -y -qq
+          python3-all-dev python-virtualenv
+    script:
+        - make sdist
+    artifacts:
+        paths:
+            - dist/*.tar.gz
+
+deploy:pypi:
+    stage: deploy
+    before_script:
+        - apt-get update -qq && apt-get install -y -qq
+          python3-all-dev python-virtualenv
+    script:
+        - make build
+        - source pypi_build/bin/activate
+        - twine upload dist/*.tar.gz wheelhouse/*.whl
+    only:
+        - tags
